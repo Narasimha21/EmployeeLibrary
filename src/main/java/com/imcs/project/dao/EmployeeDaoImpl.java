@@ -1,5 +1,4 @@
 package com.imcs.project.dao;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -12,7 +11,6 @@ import com.imcs.project.jdbcconnection.AbstractDAOImpl;
 
 public class EmployeeDaoImpl extends AbstractDAOImpl implements EmployeeDaoInterface {
 
-	@Override
 	public List<Employee> getEmployeeByDeptNo(int deptNo) {
 		// TODO Auto-generated method stub
 

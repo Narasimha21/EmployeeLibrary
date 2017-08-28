@@ -1,7 +1,6 @@
 package com.imcs.project.dao;
 
 import java.util.List;
-
 import com.imcs.project.entities.Employee;
 
 public interface EmployeeDaoInterface {
