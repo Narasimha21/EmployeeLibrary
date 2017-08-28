@@ -9,4 +9,7 @@ public interface EmployeeDaoInterface {
 	List<Employee> getEmpByDeptNo(int deptNo, String orderby);
 
 	List<Employee> getEmployeeByDeptNo(int deptNo);
+	
+	Employee getEmployee(int empNo,int deptNo);
+	
 }
