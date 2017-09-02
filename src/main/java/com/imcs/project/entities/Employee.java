@@ -26,6 +26,16 @@ public class Employee {
 		this.status = status;
 	}
 
+	public Employee(int deptNo, float salary, Date doB, Date doJ, int salaryGrade) {
+		super();
+		this.deptNo = deptNo;
+		this.salary = salary;
+		this.doB = doB;
+		this.doJ = doJ;
+		this.salaryGrade = salaryGrade;
+
+	}
+
 	public int getEmpNo() {
 		return EmpNo;
 	}
